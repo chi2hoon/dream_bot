@@ -112,7 +112,7 @@ MLX를 로컬 API로, 프론트엔드는 클라우드에 배포
 pip install fastapi uvicorn
 
 # API 서버 실행
-python app/mlx_api_server.py
+python mlx_api_server.py
 ```
 
 #### 2️⃣ ngrok으로 API 노출
