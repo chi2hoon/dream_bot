@@ -39,6 +39,7 @@ pip install -r requirements.txt
 # MLX 커뮤니티 모델 다운로드 (약 4.2GB)
 mlx-lm download mlx-community/Qwen2.5-7B-Instruct-4bit
 ```
+**참고:** `mlx-lm` 명령이 인식되지 않으면 `pip install mlx-lm`을 실행해보세요.
 
 ### 3. PDF 인덱싱
 
