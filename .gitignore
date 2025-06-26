@@ -27,4 +27,4 @@ models/
 *.bak
 
 # Streamlit
-.streamlit/secrets.toml 
+.streamlit/secrets.toml

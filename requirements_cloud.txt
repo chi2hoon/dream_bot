@@ -16,4 +16,4 @@ openai==1.35.0
 
 # 유틸리티
 python-dotenv==1.0.1
-tiktoken==0.7.0 
+tiktoken==0.7.0
