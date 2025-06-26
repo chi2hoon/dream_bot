@@ -103,6 +103,10 @@ dream_bot/
 export PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.7
 ```
 
+`MPS backend out of memory` 오류가 계속된다면 임베딩 모델을
+CPU에서 실행하도록 설정하세요. 본 저장소의 기본 코드(`app/app.py`)는
+이미 CPU 모드로 동작하도록 수정되어 있습니다.
+
 ## 🔧 고급 설정
 
 ### PDF 교체
