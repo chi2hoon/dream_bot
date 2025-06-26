@@ -85,4 +85,4 @@ if __name__ == "__main__":
         print("\n💡 해결 방법:")
         print("1. 방화벽 설정 확인")
         print("2. ngrok 계정 생성 후 인증")
-        print("3. 다른 포트 사용") 
+        print("3. 다른 포트 사용")

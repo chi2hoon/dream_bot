@@ -28,4 +28,4 @@ echo ""
 echo "종료하려면 Ctrl+C를 누르세요."
 echo ""
 
-streamlit run app/app.py 
+streamlit run app/app.py
