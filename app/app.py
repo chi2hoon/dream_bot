@@ -56,7 +56,10 @@ class DreamRAGBot:
     def _load_embedder(self):
         """임베딩 모델 로드"""
         with st.spinner("🧠 임베딩 모델 로딩..."):
-            self.embedder = SentenceTransformer(self.config['embedding_model'])
+            # MPS 메모리 부족 현상 방지를 위해 CPU 강제 사용
+            self.embedder = SentenceTransformer(
+                self.config['embedding_model'], device="cpu"
+            )
             self.embedder.max_seq_length = 512
     
     def _load_llm(self):
