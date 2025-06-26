@@ -30,4 +30,4 @@ echo "🔗 공유 링크 생성 중..."
 ngrok http 8501
 
 # 종료 시 Streamlit도 종료
-trap "kill $STREAMLIT_PID" EXIT 
+trap "kill $STREAMLIT_PID" EXIT
