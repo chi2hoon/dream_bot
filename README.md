@@ -2,7 +2,7 @@
 
 프로이트의 `The Interpretation of Dreams` 원문을 검색 기반으로 참조하고, OpenAI API로 꿈 해석 스타일의 답변을 생성하는 **RAG 기반 Streamlit 토이 프로젝트**입니다.
 
-핵심 목표는 실제 심리 상담 서비스가 아니라, 문서 기반 LLM 앱에서 중요한 **source transparency, retrieval flow, safety disclaimer**를 작은 주제로 구현해보는 것이었습니다.
+문서 기반 LLM 앱에서 중요한 **source transparency, retrieval flow, safety disclaimer**를 작은 주제로 구현해보는 것을 핵심 목표로 잡았습니다. 
 
 ## What It Does
 
@@ -88,7 +88,7 @@ streamlit run app/app.py
 
 ## Portfolio Notes
 
-이 프로젝트에서 보여주고 싶은 역량은 도메인 지식 자체보다 다음에 가깝습니다.
+이 프로젝트에서 보여주고 싶은 역량은 다음에 가깝습니다.
 
 - 문서 기반 RAG application 구성
 - source chunk 검색과 answer generation 연결
